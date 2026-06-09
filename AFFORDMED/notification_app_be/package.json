@@ -1,0 +1,16 @@
+{
+  "name": "notification_app_be",
+  "version": "1.0.0",
+  "description": "Affordmed Notification API backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2"
+  }
+}
